@@ -15,15 +15,12 @@ $(document).ready(function(){
 		if (windowPosition >= menuPosition){
 			menu.css("position", "fixed");
 			menu.css("top", "0px");
-			console.log('fixed')
 
 		} else {
 			menu.css("position","absolute");
 			menu.css("top", menuPosition + 'px');
-			console.log('abs')
 
 		}
-		console.log('1', menuPosition, menuHeight)
 	};
 	$(window).scroll(function() {
 		menuFixed()
