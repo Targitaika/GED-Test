@@ -176,6 +176,15 @@ a:hover {
 .htl-item:hover{
 	color:#ffffff;
 }
+.htr-item{
+	color:#8da3ab;
+}
+.htr-item:hover{
+	color:#ffffff;
+}
+.ht-left{
+	float:left;
+}
 .ht-right{
 	float:right;
 	.flexbox();
@@ -184,13 +193,135 @@ a:hover {
 .ht__cont{
 
 }
+.header__bottom{
+	margin:0px;
+}
+.hb{
+	height:55px;
+	width:100%;
+	background: #3a3a43;
+	overflow: hidden;
+	.flexbox();
+	.justify-content(space-between);
+}
+.hb-1{
+	min-width:250px;
+	.flex-grow(0);
+}
+.hb-2{
+	.flexbox();
+	.justify-content(space-between);
+	.flex-grow(1);
+}
+.hb-3{
+	min-width:335px;
+	.flex-grow(0);
+}
+.hb-2-item{
+	color:#ffffff;
+	height:100%;
+	border-bottom: 2px solid transparent;
+	margin-top:-2px;
+}
+.hb-2-item:hover{
+	color:#f8c700;
+	border-bottom: 2px solid #f8c700;
 
+}
+.date-txt{
+	font-size: 16px;
+	color:#ffffff;
+	background: #ff5f47;
+	padding:2px 5px 2px 5px;
+	width:auto;
+	display: inline-block;
+	border-radius: 5px;
+}
+.date-txt__txt{
+	display: inline;
+}
+// ЛЕВАЯ ЧАСТЬ
 .main-left{
 	min-width: 740px;
 	max-width: 976px;
 }
+.big-counter{
+
+}
+.big-counter__txt{
+
+}
+.big-counter__num{
+	background-color: #424242;
+	color:#ffcc02;
+	font-size: 20px;
+	display: inline-block;
+	padding:2px 7px;
+}
+.ml-list{
+	border:1px solid #cccccc;
+}
+.mll-main-item{
+	border-bottom: 1px solid #cccccc;
+}
+.mmic{
+
+}
+.mmic__img{
+	display: block;
+	width:490px;
+	height:330px;
+	float:left;
+}
+.mmic::after{
+	content:"";
+	clear:both;
+	display: block;
+}
+.mmic__h{
+	font-size: 26px;
+}
+.krohi{
+
+}
+.green-number{
+	padding: 10px 15px;
+	border-radius: 5px;
+	font-weight: 700;
+	display: inline;
+	color:#ffffff;
+	background-color: #62c741;
+}
+.mllml-item::after{
+	content:"";
+	clear:both;
+	display: block;
+}
+.mllml-item__img{
+	float:left;
+
+}
+.mllmlii__img{
+	display: block;
+	width:405px;
+	height:270px;
+}
+.mllmlii{
+	position: relative;
+}
+.mllmlii__txt{
+	position: absolute;
+	right:15px;
+	top:15px;
+}
+// /ЛЕВАЯ ЧАСТЬ
+
+
+// ПРАВАЯ ЧАСТЬ
+
 .main-right{
 	width:250px;
 	min-width: 250px;
 	max-width: 250px;
 }
+// /ПРАВАЯ ЧАСТЬ
